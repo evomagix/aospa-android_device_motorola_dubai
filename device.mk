@@ -385,6 +385,3 @@ $(call inherit-product, $(HARDWARE_PATH)/common.mk)
 
 # Proprietary Vendor
 $(call inherit-product, vendor/motorola/dubai/dubai-vendor.mk)
-
-# Firmware
-$(call inherit-product-if-exists, vendor/motorola/firmware/dubai/config.mk)
